@@ -1,5 +1,5 @@
 # fish-my-settings
 
 ```
-fisher sixeight/fish-my-setting
+fisher add Sixeight/fish-my-setting
 ```
