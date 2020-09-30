@@ -1,3 +1,4 @@
+# original: https://github.com/hitode909/dotfiles/blob/master/zshrc
 function do_enter
   set -l cmd (commandline)
   if test -n "$cmd"
