@@ -1,6 +1,6 @@
 function do_enter
   set -l cmd (commandline)
-  if test -n $cmd
+  if test -n "$cmd"
     commandline $cmd
     commandline -f execute
     commandline -f repaint

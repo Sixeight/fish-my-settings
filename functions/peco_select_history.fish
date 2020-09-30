@@ -1,7 +1,7 @@
 function peco_select_history
   set -l query (commandline)
 
-  if test -n $query
+  if test -n "$query"
     set peco_flags --query "$query"
   end
 
