@@ -15,6 +15,10 @@ set -x PATH $HOME/.plenv/bin $PATH
 set -x PATH $HOME/.rbenv/bin $PATH
 . (rbenv init - | psub)
 
+# nodevn
+set -x PATH $HOME/.ndenv/bin $PATH
+. (nodenv init - | psub)
+
 # # my path
 set -x PATH $HOME/bin $PATH
 
