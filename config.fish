@@ -1,5 +1,8 @@
 set -x EDITOR vim
 
+# # homebrew
+set -x PATH /usr/local/bin $PATH
+
 # go
 set -x GOPATH $HOME/.go
 set -x PATH $GOPATH/bin $PATH
@@ -11,9 +14,6 @@ set -x PATH $HOME/.plenv/bin $PATH
 # # rbenv
 set -x PATH $HOME/.rbenv/bin $PATH
 . (rbenv init - | psub)
-
-# # homebrew
-set -x PATH /usr/local/bin $PATH
 
 # # my path
 set -x PATH $HOME/bin $PATH
