@@ -35,7 +35,7 @@ bind \cm 'do_enter'
 abbr -a g git
 abbr -a s git status -sb
 abbr -a d git diff --cached
-abbr -a di git dif
+abbr -a di git diff
 abbr -a l git log
 abbr -a st git stash
 abbr -a pop git stash pop
