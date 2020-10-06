@@ -42,6 +42,7 @@ abbr -a pop git stash pop
 abbr -a pick git cherry-pick
 
 abbr -a r bin/rails
+abbr -a sp bin/spring
 abbr -a b bundle
 abbr -a be bundle exec
 
