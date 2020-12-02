@@ -41,6 +41,7 @@ abbr -a st git stash
 abbr -a pop git stash pop
 abbr -a pick git cherry-pick
 abbr -a ggrep git grep
+abbr -a gs git switch
 
 abbr -a r bin/rails
 abbr -a sp bin/spring
