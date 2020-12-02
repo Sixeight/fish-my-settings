@@ -1,10 +1,11 @@
 function install-my-settings
-  set -q XDG_DATA_HOME; or set XDG_DATA_HOME ~/.local/share
-  set -l fisher_data $XDG_DATA_HOME/fisher
-  set -l repository github.com/Sixeight/fish-my-settings
-  set -l data_path $fisher_data/$repository
+  set fish_trace 1
 
-  cd $data_path
-  make install
+  set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
+  set -l fish_config_home $XDG_CONFIG_HOME/fish
+  set -l config_path $fish_config_home/functions/configh.fish
+
+  cd $fish_config_home
+  ln -s $config_path .
   cd -
 end
