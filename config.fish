@@ -4,7 +4,7 @@ set -x EDITOR vim
 set -x PATH /usr/local/bin $PATH
 
 # go
-set -x GOPATH $HOME/.go
+set -x GOPATH $HOME/local
 set -x PATH $GOPATH/bin $PATH
 
 # plenv
