@@ -8,8 +8,8 @@ set -x GOPATH $HOME/.go
 set -x PATH $GOPATH/bin $PATH
 
 # plenv
-set -x PATH $HOME/.plenv/bin $PATH
-. (plenv init - | sed -e 's/setenv/set -gx/' | psub)
+# set -x PATH $HOME/.plenv/bin $PATH
+# . (plenv init - | sed -e 's/setenv/set -gx/' | psub)
 
 # # rbenv
 set -x PATH $HOME/.rbenv/bin $PATH
