@@ -25,6 +25,9 @@ set -x PATH $HOME/bin $PATH
 # # z
 set -x Z_DATA $HOME/.z
 
+# direnv
+direnv hook fish | source
+
 # Key binding
 bind \es 'peco_select_ghq_repository'
 bind \cr 'peco_select_history'
