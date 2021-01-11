@@ -7,5 +7,6 @@ function install-my-settings
 
   cd $fish_config_home
   ln -s $config_path .
+  cat fish_plugins | xargs -Iplugin fish -c 'fisher install plugin'
   cd -
 end
