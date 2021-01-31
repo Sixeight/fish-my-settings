@@ -6,7 +6,6 @@ function install-my-settings
   set -l config_path $fish_config_home/functions/config.fish
 
   cd $fish_config_home
-  ln -s $config_path .
-  fisher install < fish_plugins
+  mv $config_path .
   cd -
 end
