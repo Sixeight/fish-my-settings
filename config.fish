@@ -28,9 +28,6 @@ set -x Z_DATA $HOME/.z
 # direnv
 direnv hook fish | source
 
-# MySQL 5.7
-set -g fish_user_paths "/usr/local/opt/mysql@5.7/bin" $fish_user_paths
-
 # Key binding
 bind \es 'peco_select_ghq_repository'
 bind \cr 'peco_select_history'
