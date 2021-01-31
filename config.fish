@@ -11,12 +11,12 @@ set -x PATH $GOPATH/bin $PATH
 # set -x PATH $HOME/.plenv/bin $PATH
 # . (plenv init - | sed -e 's/setenv/set -gx/' | psub)
 
-# # rbenv
+# rbenv
+# https://github.com/rbenv/rbenv#basic-github-checkout
 set -x PATH $HOME/.rbenv/bin $PATH
 . (rbenv init - | psub)
 
 # nodevn
-set -x PATH $HOME/.ndenv/bin $PATH
 . (nodenv init - | psub)
 
 # # my path
