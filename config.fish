@@ -1,7 +1,8 @@
 set -x EDITOR vim
 
-# # homebrew
-set -x PATH /usr/local/bin $PATH
+# homebrew
+# /etc/paths has same path
+# set -x PATH /usr/local/bin $PATH
 
 # go
 set -x GOPATH $HOME/local
